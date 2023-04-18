@@ -1,0 +1,101 @@
+/*Reset do estilo*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #333333;
+}
+body > header{
+    background-color: gray;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+body > header a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+header li{
+    display: inline;
+}
+
+#sports h2, #sports h3{
+    color: green;
+}
+
+#economy h2, #economy h3{
+    color: gold;
+}
+
+
+
+.container{
+    width: 1366px;
+    margin: 0px auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+article img{
+    height: 180px;
+}
+.articles article{
+    width: 30%;
+    
+
+}
+
+.articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin: 8px 0px;
+}
+
+.articles article a{
+    background-color: blue;
+    color: white;
+    padding: 7px 15px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.articles article{
+    margin-bottom: 16px;
+}
+
+#mundo h2, #mundo h3{
+    color: darkred;
+}
+#mundo a{
+    background-color: darkred;
+}
+
+#tech h2, #tech h3{
+    color: #296E8E;
+}
+#tech a{
+    background-color: #296E8E;
+}
