@@ -99,3 +99,19 @@ section h2,
 #tech a{
     background-color: #296E8E;
 }
+header li{
+    margin: 0 10px;
+}
+
+#sports{
+    background-color: lightgreen;
+}
+#economy{
+    background-color: lightgoldenrodyellow;
+}
+#mundo{
+    background-color: lightpink;
+}
+#tech{
+    background-color: lightblue;
+}
